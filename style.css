@@ -1,0 +1,207 @@
+/* {
+    border: 1px solid black;
+}*/
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 5px;
+    background-color: #F3EFE0;
+    font-family: "Poppins";
+    font-weight: lighter;
+    margin: 0px;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+hr {
+    background-color: #404258;
+    width: 100%;
+    height: 1%;
+}
+
+img {
+    pointer-events: none;
+}
+
+h2,
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+
+nav {
+    overflow: auto;
+    padding: 5px;
+}
+
+nav .buttons {
+    float: right;
+}
+
+nav a {
+    cursor: default;
+}
+
+.teamlogo {
+    float: left;
+    height: 50px;
+    max-height: 50px !important;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px;
+    margin: 0px 5px;
+    border: 1px solid black;
+    background-color: #2659CE;
+    color: white;
+    box-shadow: 3px 3px navy;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px black;
+}
+
+.button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px black;
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team {
+    flex-basis: 35%;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    min-height: 200px;
+    width: 400px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.team:hover {
+    margin: 7px auto 12px auto;
+    box-shadow: 3px 6px black;
+}
+
+#members img {
+    height: 80px;
+    box-shadow: 1px 2px black;
+    border-radius: 50%;
+    width: 80px;
+}
+
+#members h3 {
+    display: inline;
+    text-decoration: underline;
+    position: absolute;
+    transform: translate(10%, 50%);
+    font-family: 'Franklin Gothic Medium', serif;
+    letter-spacing: 1px;
+    margin-bottom: auto 0;
+}
+
+.media {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.media img {
+    pointer-events: visible !important;
+    margin: 0 auto;
+    width: 15%;
+    height: fit-content;
+    margin: auto auto;
+}
+
+.media img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#focusedimg {
+    margin: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    max-height: 500px;
+}
+
+.gallery {
+    border: 1px solid black;
+}
+
+
+table {
+    width: 100%;
+    height: fit-content;
+    margin: 50px 0;
+}
+
+table th,
+td {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+#progress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#progress div {
+    flex-basis: 45%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#progress iframe {
+    height: 500px;
+    box-shadow: 2px 2px black;
+    width: 80%;
+}
+
+#progress a {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+#features {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#features div {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#features h3 {
+    text-decoration: underline;
+}
+
+
+#fill {
+    flex: 1;
+}
